@@ -1,16 +1,82 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>All Posts - My New Hugo Site</title>
-        <link>https://example.org/posts/</link>
-        <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 Jan 2024 19:56:26 &#43;0300</lastBuildDate><atom:link href="https://example.org/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>My First Post</title>
-    <link>https://example.org/posts/my-first-post/</link>
-    <pubDate>Wed, 17 Jan 2024 19:56:26 &#43;0300</pubDate>
-    <author>Author</author>
-    <guid>https://example.org/posts/my-first-post/</guid>
-    <description><![CDATA[Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!]]></description>
-</item>
-</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site – Posts</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Jan 2024 19:56:26 +0300</lastBuildDate>
+    
+	  <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Wed, 17 Jan 2024 19:56:26 +0300</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>
+        
+        
+        &lt;h2&gt;Introduction&lt;span class=&#34;absolute -mt-20&#34; id=&#34;introduction&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#introduction&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>My Docs</title>
+      <link>http://example.org/posts/docs/new-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/docs/new-post/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Mapping Prepositions to Ontology&lt;/h1&gt;&lt;p&gt;Mapping prepositions from the English language to ontological entities is a nuanced task, as prepositions often convey spatial, temporal, or logical relationships between different entities in a sentence. In ontology, these relationships are typically represented as relations or properties connecting classes or instances. Let&amp;rsquo;s explore how some common prepositions map to ontological concepts:&lt;/p&gt;
+&lt;h2&gt;1. &amp;ldquo;In&amp;rdquo; / &amp;ldquo;On&amp;rdquo; (Spatial Relations)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;1-in--on-spatial-relations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-in--on-spatial-relations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ontologically, these prepositions can be mapped to spatial relations. For instance, &amp;ldquo;the book is on the table&amp;rdquo; translates to a relation like &lt;code&gt;isOn(book, table)&lt;/code&gt;. Such relations describe the physical positioning or containment of one entity in relation to another.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3. &amp;ldquo;Before&amp;rdquo; / &amp;ldquo;After&amp;rdquo; (Temporal Relations)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;3-before--after-temporal-relations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-before--after-temporal-relations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;These prepositions are indicative of temporal relations. In an ontology, they might correspond to relations like &lt;code&gt;precedes(event1, event2)&lt;/code&gt; or &lt;code&gt;follows(event1, event2)&lt;/code&gt;. They define the order of occurrence or sequence of events or actions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;5. &amp;ldquo;With&amp;rdquo; / &amp;ldquo;Without&amp;rdquo; (Association / Disassociation)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;5-with--without-association--disassociation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-with--without-association--disassociation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;These are often used to express association or disassociation. In ontological terms, they could be represented as associative relations, such as &lt;code&gt;associatedWith(entity1, entity2)&lt;/code&gt; or &lt;code&gt;notAssociatedWith(entity1, entity2)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;7. &amp;ldquo;By&amp;rdquo; (Agency or Method)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;7-by-agency-or-method&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#7-by-agency-or-method&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;When indicating agency, as in &amp;ldquo;the painting was done by the artist,&amp;rdquo; it can map to a relation like &lt;code&gt;createdBy(painting, artist)&lt;/code&gt;. If it indicates method, like in &amp;ldquo;travel by train,&amp;rdquo; it could be represented as &lt;code&gt;methodOf(travel, train)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;9. &amp;ldquo;Under&amp;rdquo; / &amp;ldquo;Over&amp;rdquo; (Hierarchical Relations)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;9-under--over-hierarchical-relations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#9-under--over-hierarchical-relations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;These prepositions often imply a hierarchy or an order. In ontological terms, they might be used to define hierarchical relations such as &lt;code&gt;isUnderneath(object1, object2)&lt;/code&gt; or &lt;code&gt;isAbove(object1, object2)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;11. &amp;ldquo;From&amp;rdquo; / &amp;ldquo;To&amp;rdquo; (Source and Destination)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;11-from--to-source-and-destination&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#11-from--to-source-and-destination&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;These prepositions can map to source-destination relations in ontology. For example, &amp;ldquo;He traveled from Paris to London&amp;rdquo; might be represented as &lt;code&gt;originatedFrom(travel, Paris)&lt;/code&gt; and &lt;code&gt;destinedTo(travel, London)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;13. &amp;ldquo;Of&amp;rdquo; / &amp;ldquo;For&amp;rdquo; (Possession or Purpose)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;13-of--for-possession-or-purpose&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#13-of--for-possession-or-purpose&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Of&amp;rdquo; often indicates possession or part-whole relationships, e.g., &amp;ldquo;the door of the car&amp;rdquo; could be represented as &lt;code&gt;partOf(door, car)&lt;/code&gt;. &amp;ldquo;For&amp;rdquo; typically denotes purpose or intended use, e.g., &amp;ldquo;a key for the lock&amp;rdquo; could be &lt;code&gt;intendedFor(key, lock)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;15. &amp;ldquo;Between&amp;rdquo; / &amp;ldquo;Among&amp;rdquo; (Inter-entity Relations)&lt;span class=&#34;absolute -mt-20&#34; id=&#34;15-between--among-inter-entity-relations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#15-between--among-inter-entity-relations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;These prepositions are used to express relations among multiple entities. In ontology, &amp;ldquo;between&amp;rdquo; could be mapped to bilateral relations, while &amp;ldquo;among&amp;rdquo; to multilateral relations, like &lt;code&gt;locatedBetween(city, city1, city2)&lt;/code&gt; or &lt;code&gt;partOfGroup(entity, group)&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Understanding how prepositions map to ontological entities is crucial, especially in natural language processing (NLP) and semantic web technologies, where such mappings enable machines to comprehend and process the relational aspects of human language. These mappings provide a framework for interpreting the contextual relationships in data, enhancing machine understanding and interaction with human language.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
 </rss>

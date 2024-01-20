@@ -4,7 +4,7 @@ baseURL = "http://example.org/"
 theme = "hextra"
 
 # website title
-title = "My New Hugo Site"
+title = "Ontology and systems"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
